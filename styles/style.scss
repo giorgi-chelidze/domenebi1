@@ -1,0 +1,194 @@
+@import './cfg.scss';
+@import './filter-section.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+.header {
+    @extend %flexCenter;
+    width: 100%;
+    background-color: $white;
+}
+header {
+    width: 1286px; 
+}
+.header-logo-icons {
+    width: 100%;
+    height: 80px;
+    @extend %flexCenterY;
+    justify-content: space-between;
+}
+.header-icons {
+    @extend %flexCenterY;
+}
+
+.bell-icon, .flag-icon, .bakset-icon { 
+    width: 50px;
+    @extend %hed-icon;
+    @extend %flexCenter;
+}
+.user-select-icons {
+    font-size: 14px;
+    width: 160px;
+    @extend %hed-icon;
+    @extend %flexCenter;
+    justify-content: space-around;
+    color: #696974;
+}
+.select-lang {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.header-menu {
+    box-shadow: 0px 3px 6px #00000005;
+    width: 100%;
+    height: 60px;
+  
+    @extend %flexCenterY;
+    justify-content: space-between;
+}
+nav ul {
+    @extend %flexCenterY;
+}
+.head-menu-right li{
+    margin-left: 30px;
+}
+.head-menu-left li{
+    margin-right: 30px;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #696974;
+}
+// **      ***     END  MENU     ***      **
+
+.content {
+    width: 100%;
+    background-color: #FAFAFB;
+    padding: 20px 0;
+    display: grid;
+    justify-content: center;
+}
+section {
+    max-width: 1286px;
+}
+.content-img-text {
+    @extend %flexCenter;
+}
+.content-img {
+    width: 100%;
+}
+.text-in-img {
+    position: absolute;
+    color: $white;
+    font-size: 36px;
+}
+
+// *** --------     sorting menu start  -------- ***
+.sort-domain-info {
+    width: 100%;
+    @extend %flexCenterY;
+    justify-content: space-between;
+    height: 70px;
+}
+.domains-in-site {
+    color: #696974;
+    font-weight: bold;
+    font-size: 16px;
+    width: 30%;
+}
+.domains-in-site span {
+    color: #171D25;
+    font-weight: bold;
+}
+.sort-domaing-tools {
+    width: 68%;
+    @extend %flex-space-btw;
+}
+.sort-domaing-tools ul {
+    display: flex;
+}
+.sort-domaing-tools ul li {
+    list-style: none;
+    margin:0 8px;
+    letter-spacing: 0px;
+    color: #92929D;
+    font-size: 14px;
+}
+.sort-domaing-tools ul li a {
+    text-decoration: underline;
+    color: #171725;
+}
+.filter-add-data {
+    color: $green;
+}
+.sorting-tool-declar {
+    color: #171725;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+.filter-domains-section {
+    background-color: rgb(255, 255, 255);
+    @extend %flex-space-btw;
+}
+.filter-section {
+    border: 1px solid #0101e2;
+    border-radius: 15px;
+    width: 29.5%;
+    display: grid;
+    align-items: center;
+    padding: 20px;
+// *******             RANGE EXTEND    ************
+    @extend %range; 
+}
+.search-inp {
+    width: 100%;
+    padding: 0 20px;
+    @extend %inp-border;
+    margin: 20px 0;
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+.domain-cont {
+   width: 866px;
+}
+.domain-cards {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(28, 28, 29);
+}
+
+// **    ****    DOMAIN CARDS      *** **
+
+

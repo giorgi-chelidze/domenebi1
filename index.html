@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>domenebi.ge</title>
+</head>
+<body>
+    <div class="header">
+    <header>
+        <div class="header-logo-icons">
+            <div><img src="./imgs/header-logo.png" alt="img"> </div>  
+            <div class="header-icons">
+                <div class="bell-icon header-icon">
+                    <img src="./imgs/bell-icon.png" alt="img">
+                </div>
+                <div class="bakset-icon header-icon">
+                    <img src="./imgs/basketB-icon.png" alt="img">
+                </div>
+                <div class="user-select-icons header-icon">
+                    <img src="./imgs/user-icon.png" alt="img">
+                    <label for="select-lang">Kancha Co.</label>
+                    <select name="" id="select-lang" class="select-lang">
+                        <img src="./imgs/arrow-icon.png" alt="img">
+                    </select>
+                </div>
+                <div class="flag-icon header-icon">
+                    <img src="./imgs/flag-icon.png" alt="img">
+                </div>
+            </div>
+        </div>
+        <nav class="header-menu">
+            <ul class="head-menu-left">
+                <li><a href=#>დომენი</a></li>
+                <li><a href=#>ტრანსფერი</a></li>
+                <li><a href=#>ჰოსტინგი</a></li>
+                <li><a href=#>Gmail</a></li>
+                <li><a href=#>ვებგვერდი</a></li>
+                <li><a href=#>დომენის მარკეტი</a></li>
+            </ul>
+            <ul class="head-menu-right">
+                <li><a href=#>ჩვენს შესახებ</a></li>
+                <li><a href=#>ფასები</a></li>
+                <li><a href=#>ბლოგი</a></li>
+                <li><a href=#>დახმარება</a></li>
+            </ul>
+        </nav>
+    </header>
+</div> 
+<!-- ********   END HEADER  *******  -->
+<div class="content">
+    <section>
+        <div class="content-img-text">
+            <img src="./imgs/content-img.png" alt="img" class="content-img">
+            <h2 class="text-in-img">გაყიდე და იყიდე დომენი მარტივად</h2> 
+        </div>
+        <div class="sort-domain-info">
+            <h4 class="domains-in-site">დომენები მარკეტზე: <span>888</span></h4>
+            <div class="sort-domaing-tools">
+                <ul>
+                    <li><span class="sorting-tool-declar">სორტირება</span> </li>
+                    <li><span class="filter-add-data">დამატების თარიღით <img src="./imgs/sort-menu-icon.png" alt="img"></span></li>
+                    <li>ვადის ამოწურვით</li>
+                    <li>ფასით</li>
+                    <li>ანბანით</li>
+                </ul>
+                <ul>
+                   <li><a href="#">როგორ გავყიდო დომენი</a></li> 
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="filter-domains-section">
+                <div class="filter-section">
+                    <input type="text" name="" id="search-inp" class="search-inp"
+                    placeholder="სახელით ძიება">
+                    <p class="desc-filter">ფასი</p>
+                    <div class="range-sec">
+                        <div class="price-input">
+                          <div class="field">
+                            <div class="min-price">
+                                <input type="number" class="input-min" value="2500">
+                                <span>₾</span>
+                            </div>
+                          </div>
+                          
+                          <div class="field">
+                            <input type="number" class="input-max" value="7500">
+                          </div>
+                        </div>
+                        <div class="slider">
+                          <div class="progress"></div>
+                        </div>
+                        <div class="range-input">
+                          <input type="range" class="range-min" min="0" max="10000" value="2500" step="100">
+                          <input type="range" class="range-max" min="0" max="10000" value="7500" step="100">
+                        </div>
+                      </div>
+                    <p>სიმბოლოების რაოდენობა</p>
+                    
+                    
+                </div>
+            <!-- <div class="domain-cont">
+                <div class="domain-cards"></div>
+            </div> -->
+        </div>
+       
+
+    </section>
+</div>  
+    
+
+<script src="./script.js" defer></script>
+</body>
+</html>
